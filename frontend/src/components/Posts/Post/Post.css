@@ -1,0 +1,89 @@
+.media {
+  height: fit-content;
+  padding-top: 56.25%;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+}
+.media:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.border {
+  border: solid;
+}
+
+.fullHeightCard {
+  height: 80%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 15px;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  /* transition: 0.5s; */
+}
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+.overlay2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+}
+
+.grid {
+  display: flex;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.title {
+  padding: 0 16px;
+  margin-bottom: 30px !important;
+  font-size: 20px;
+  width: 100%;
+}
+
+.cardActions {
+  padding: 0 8px 8px 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  margin: 7px;
+  padding: 8px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.deleteButton {
+  width: fit-content;
+  height: fit-content;
+  background-color: red !important;
+  color: white !important;
+  padding: 15px;
+  margin-left: auto !important;
+  margin-top: auto !important;
+  align-items: flex-end !important;
+}
+.deleteButton:hover {
+  background-color: red;
+}
+
+.creator {
+  margin-left: -60px;
+}
